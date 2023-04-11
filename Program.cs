@@ -1,10 +1,14 @@
-﻿namespace DesignPattern
+﻿using DesignPattern.CreationalPatterns.FactoryMethod;
+using DesignPattern_CS.CreationalPatterns.AbstractFactory;
+
+namespace DesignPattern
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            new Shoe().Main();
+            new Client().Main();
         }
     }
 }
